@@ -1,19 +1,19 @@
 <?php
 
-$fbServerURL = 'http://hackerexperience.com/';
+$fbServerURL = 'http://HackerGuilds.com/';
 
 if(isset($_SERVER['HTTP_HOST'])){
-    if($_SERVER['HTTP_HOST'] == 'br.hackerexperience.com'){
-        $fbServerURL = 'http://br.hackerexperience.com/';
-    } elseif($_SERVER['HTTP_HOST'] == 'en.hackerexperience.com'){
-        $fbServerURL = 'http://en.hackerexperience.com/';
+    if($_SERVER['HTTP_HOST'] == 'br.HackerGuilds.com'){
+        $fbServerURL = 'http://br.HackerGuilds.com/';
+    } elseif($_SERVER['HTTP_HOST'] == 'en.HackerGuilds.com'){
+        $fbServerURL = 'http://en.HackerGuilds.com/';
     }
 }
 
 $l = 'en_US';
 
 if(isset($_SERVER['HTTP_HOST'])){
-    if($_SERVER['HTTP_HOST'] == 'br.hackerexperience.com' || $_SERVER['HTTP_HOST'] == 'www.br.hackerexperience.com'){
+    if($_SERVER['HTTP_HOST'] == 'br.HackerGuilds.com' || $_SERVER['HTTP_HOST'] == 'www.br.HackerGuilds.com'){
         $l = 'pt_BR';
     }
 }
@@ -31,15 +31,15 @@ require_once 'twitter/twitteroauth.php';
 require_once '/var/www/classes/Facebook.class.php';
 
 switch($fbServerURL){
-    case 'http://hackerexperience.com/':
+    case 'http://HackerGuilds.com/':
         $appID = 0;
         $appSecret = 'REDACTED';
         break;
-    case 'http://br.hackerexperience.com/':
+    case 'http://br.HackerGuilds.com/':
         $appID = 0;
         $appSecret = 'REDACTED';
         break;
-    case 'http://en.hackerexperience.com/':
+    case 'http://en.HackerGuilds.com/':
         $appID = 0;
         $appSecret = 'REDACTED';
         break;
@@ -60,12 +60,12 @@ $facebookURL = $facebook->getLoginUrl(Array(
 $twitteroauth = new TwitterOAuth('REDACTED', 'REDACTED');
 $twitteroauth->host = "https://api.twitter.com/1.1/";
 
-//if($_SERVER['HTTP_HOST'] == 'www.hackerexperience.com' || $_SERVER['HTTP_HOST'] == 'hackerexperience.com'){
-//    $url = 'http://hackerexperience.com/';
+//if($_SERVER['HTTP_HOST'] == 'www.HackerGuilds.com' || $_SERVER['HTTP_HOST'] == 'HackerGuilds.com'){
+//    $url = 'http://HackerGuilds.com/';
 //} else {
 //    $url = 'http://127.0.0.1/';
 //}
-$url = 'http://hackerexperience.com/';
+$url = 'http://HackerGuilds.com/';
 
 $request_token = $twitteroauth->getRequestToken($url);
 
@@ -83,7 +83,7 @@ if($request_token){
         //TODO: report
     }
 
-} elseif($url == 'http://hackerexperience.com/'){
+} elseif($url == 'http://HackerGuilds.com/'){
     //echo 'Error while connecting to twitter';
     //TODO: report instead of echo
 }
@@ -126,26 +126,26 @@ if(isset($_SESSION['TYP'])){
 -->
 <html lang="en">
     <head>
-        <title>Hacker Experience</title>
+        <title>HackerGuilds</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Hacker Experience - The Internet Under Attack is an online hacking simulation game. Play as a hacker seeking for fame and money. Join now for free.">
-        <meta name="keywords" content="Hacker, hacker game, hacking simulation, online hacker game, browser game, pbbg, hacker experience, computer science game, programming game" />
+        <meta name="description" content="HackerGuilds - The Internet Under Attack is an online hacking simulation game. Play as a hacker seeking for fame and money. Join now for free.">
+        <meta name="keywords" content="Hacker, hacker game, hacking simulation, online hacker game, browser game, pbbg, HackerGuilds, computer science game, programming game" />
         <meta name="google-site-verification" content="mHONAFYPI5E0WSX_C4oX4SX5dPGss2EPzm5kXChRrC8" />
 <?php if(!isset($_GET['fb_locale']) || ($_GET['fb_locale'] != 'pt_BR')){ ?>
         <meta property="og:locale" content="en_US">
         <meta property="og:locale:alternate" content="pt_BR">
-        <meta property="og:title" content="Hacker Experience"/>
-        <meta property="og:image" content="https://hackerexperience.com/images/og.png"/>
-        <meta property="og:url" content="https://hackerexperience.com/"/>
-        <meta property="og:description" content="Hacker Experience is a browser-based hacking simulation game, where you play the role of a hacker seeking for money and power. Join now!"/>
+        <meta property="og:title" content="HackerGuilds"/>
+        <meta property="og:image" content="https://HackerGuilds.com/images/og.png"/>
+        <meta property="og:url" content="https://HackerGuilds.com/"/>
+        <meta property="og:description" content="HackerGuilds is a browser-based hacking simulation game, where you play the role of a hacker seeking for money and power. Join now!"/>
 <?php } elseif ($_GET['fb_locale'] == 'pt_BR'){ ?>
         <meta property="og:locale" content="pt_BR">
         <meta property="og:locale:alternate" content="en_US">
-        <meta property="og:title" content="Hacker Experience"/>
-        <meta property="og:image" content="https://hackerexperience.com/images/ogbr.png"/>
-        <meta property="og:url" content="https://hackerexperience.com/"/>
-        <meta property="og:description" content="Hacker Experience é um browser-game de simulação de hacking, onde você assume o papel de um hacker buscando dinheiro e poder. Cadastre-se agora!"/>
+        <meta property="og:title" content="HackerGuilds"/>
+        <meta property="og:image" content="https://HackerGuilds.com/images/ogbr.png"/>
+        <meta property="og:url" content="https://HackerGuilds.com/"/>
+        <meta property="og:description" content="HackerGuilds é um browser-game de simulação de hacking, onde você assume o papel de um hacker buscando dinheiro e poder. Cadastre-se agora!"/>
 <?php } ?>
         <link href="css/bootstrap.css" rel="stylesheet">
         <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
@@ -177,8 +177,8 @@ if($l == 'pt_BR'){
                     <dt><a href="#"><span><img class="flag" src="images/<?php echo $current; ?>.png" alt="" /></span></a></dt>
                     <dd>
                         <ul>
-                            <li><a href="https://en.hackerexperience.com/"><img class="flag" src="images/en.png" alt="" /> English</a></li>
-                            <li><a href="https://br.hackerexperience.com/"><img class="flag" src="images/pt.png" alt="" /> Português</a></li>
+                            <li><a href="https://en.HackerGuilds.com/"><img class="flag" src="images/en.png" alt="" /> English</a></li>
+                            <li><a href="https://br.HackerGuilds.com/"><img class="flag" src="images/pt.png" alt="" /> Português</a></li>
                         </ul>
                     </dd>
                 </dl>
@@ -197,7 +197,7 @@ if($msgIndex){
 }
 ?>
                         <div class="intro-message">
-                            <h1>Hacker Experience</h1>
+                            <h1>HackerGuilds</h1>
                             <h3 class="digital"><?php echo _('The Internet under attack'); ?><span class="a_bebida_que_pisca">_</span></h3>
                             <hr class="intro-divider">
                             <ul class="list-inline intro-social-buttons">
@@ -260,9 +260,9 @@ if($msgLogin){
                     <div id="mAbout" class="col-lg-5 col-sm-6">
                         <hr class="section-heading-spacer">
                         <div class="clearfix"></div>
-                        <h2 class="section-heading"><?php echo _('About Hacker Experience'); ?></h2>
+                        <h2 class="section-heading"><?php echo _('About HackerGuilds'); ?></h2>
                         <p class="lead">
-                            <?php echo _('Hacker Experience is a browser-based hacking simulation game, where you play the role of a hacker seeking for money and power.'); ?>
+                            <?php echo _('HackerGuilds is a browser-based hacking simulation game, where you play the role of a hacker seeking for money and power.'); ?>
                         </p>
                         <p class="lead">
                             <?php echo _('Play online against other users from all the globe on an exciting battle to see who can conquer the Internet.'); ?>
@@ -400,7 +400,7 @@ if($msgRegister){
                         <h3><?php echo _('Is it really free?'); ?></h3>
                         <div>
                             <p><?php echo _('Oh yeah. You can play the whole game, <strong>with all features</strong>, for free.'); ?></p>
-                            <p><?php echo _('The only reason we can offer Hacker Experience for free is because of the non-intrusive ads we show in the game.'); ?></p>
+                            <p><?php echo _('The only reason we can offer HackerGuilds for free is because of the non-intrusive ads we show in the game.'); ?></p>
                             <p><?php echo _('The user can opt for a premium account to get rid of the ads and help us directly. This is not a "pay to win" game, though. Premium users have no tactical advantages over basic accounts.'); ?></p>
                         </div>
                         <h3><?php echo _('Shouldn\'t it be "cracker"?'); ?></h3>
@@ -408,7 +408,7 @@ if($msgRegister){
                             <p><?php echo _('Here comes a <a href="http://www.paulgraham.com/gba.html">looong discussion</a>. Many believe the word <em>hacker</em> should designate the so-called white hat (talented programmer, or an ethical hacker). Others, assume it to mean criminals behind the screen.'); ?></p>
                             <p><?php echo _('<a href="http://duartes.org/gustavo/blog/post/first-recorded-usage-of-hacker/">History has shown us</a> that maybe it really was meant to define the bad guys, however we do believe that hacker means <a href="https://stallman.org/articles/on-hacking.html">way more</a> than that.'); ?></p>
                             <p><?php echo _('Regardless of definition, we want our users to enjoy the game, whether they call it Hacker or Cracker Experience. That\'s it, name whatever you want.'); ?></p>
-                            <p><?php echo _('Meanwhile, we have a special <a href="https://forum.hackerexperience.com/">board designated to teach computer science and programming</a> for people. Instead of engaging into useless flame wars, feel free to join and share your knowledge to others. I\'d call <em>that</em> hacker :)'); ?></p>
+                            <p><?php echo _('Meanwhile, we have a special <a href="https://forum.HackerGuilds.com/">board designated to teach computer science and programming</a> for people. Instead of engaging into useless flame wars, feel free to join and share your knowledge to others. I\'d call <em>that</em> hacker :)'); ?></p>
                         </div>                          
                     </div>
                     <div class="faq-buttons-intro">
@@ -428,15 +428,15 @@ if($msgRegister){
                     <h5 class="footer-title"><?php echo _('NAVIGATE'); ?></h5>
                     <ul>
                         <li><a target="__blank" href="privacy" class="scroll"><?php echo _('PRIVACY'); ?></a></li>
-                        <li><a href="http://status.hackerexperience.com/" class="scroll">STATUS</a></li>
-                        <li><a href="http://forum.hackerexperience.com/" class="scroll"><?php echo _('FORUM'); ?></a></li>
-                        <li><a href="http://wiki.hackerexperience.com/" class="scroll">WIKI</a></li>
+                        <li><a href="http://status.HackerGuilds.com/" class="scroll">STATUS</a></li>
+                        <li><a href="http://forum.HackerGuilds.com/" class="scroll"><?php echo _('FORUM'); ?></a></li>
+                        <li><a href="http://wiki.HackerGuilds.com/" class="scroll">WIKI</a></li>
                     </ul>
                 </div>
                 <div id="legal-disclaimer" class="three columns">
                     <h5 class="footer-title"><?php echo _('LEGAL DISCLAIMER'); ?></h5>
                     <p style="margin-top: -10px;">
-                        <?php echo _('Hacker Experience is <strong>NOT</strong> related to any real hacking activity.'); ?>
+                        <?php echo _('HackerGuilds is <strong>NOT</strong> related to any real hacking activity.'); ?>
                         <?php echo _('All in-game content is purely fictional and do not represent real user identification. IP addresses are randomly generated.'); ?>
                     </p>
                 </div>
@@ -444,10 +444,10 @@ if($msgRegister){
                     <h5 class="footer-title"><?php echo _('CONTACT US'); ?></h5>
                     <div class="mail-link">
                         <a href="http://www.neoartlabs.com"><i class="fa fa-home"></i>www.neoartlabs.com</a><br/>
-                        <a href="mailto:<?php echo _('contact@hackerexperience.com'); ?>"><i class="fa fa-envelope-o"></i><?php echo _('contact@hackerexperience.com'); ?></a><br/>
+                        <a href="mailto:<?php echo _('contact@HackerGuilds.com'); ?>"><i class="fa fa-envelope-o"></i><?php echo _('contact@HackerGuilds.com'); ?></a><br/>
                     </div>
                     <div class="footer-social">
-                        <a href="https://facebook.com/HackerExperience"><i class="fa fa-facebook-square"></i></a>
+                        <a href="https://facebook.com/HackerGuilds"><i class="fa fa-facebook-square"></i></a>
                         <a href="https://twitter.com/HackerExp"><i class="fa fa-twitter"></i></a>
                         <a href="https://plus.google.com/105485198485447624885" rel="publisher"><i class="fa fa-google-plus"></i></a>
                         <a href="https://renatomassaro.com"><i class="fa fa-user"></i></a>
@@ -462,7 +462,7 @@ if($msgRegister){
                 <div class="three columns">
                     <span id="hand" class="footer-social left small" style="margin-left: 35%;"><?php echo _('Handcrafted in Brazil'); ?></span>
                 </div>
-                <h3 id="neoart" class="footer-title right">2014 &copy; <a href="#" style="color: #fff; margin-right: 10px;">NeoArt Labs</a></h3>
+                <h3 id="neoart" class="footer-title right">2014 &copy; <a href="#" style="color: #fff; margin-right: 10px;">DKTech</a></h3>
                 
             </div>
 

@@ -25,7 +25,7 @@ class SES {
         
         $msg = array();
         
-        $msg['Source'] = "Hacker Experience <contact@hackerexperience.com>";
+        $msg['Source'] = "HackerGuilds <contact@HackerGuilds.com>";
         $msg['Destination']['ToAddresses'][] = $info['to'];
 
         $msg['Message']['Subject']['Charset'] = "UTF-8";
@@ -36,7 +36,7 @@ class SES {
             
             case 'verify':
                 
-                $subject = 'Hacker Experience email confirmation';
+                $subject = 'HackerGuilds email confirmation';
                 
                 $html = file_get_contents(_('/var/www/ses/tpl/verify.html'));
                 
@@ -45,14 +45,14 @@ class SES {
                 
                 $body_html = $html;
                 
-                $text = str_replace('</form>', '<br/>'._('Proceed to ').'http://hackerexperience.com/welcome?code='.$info['key'], $html);
+                $text = str_replace('</form>', '<br/>'._('Proceed to ').'http://HackerGuilds.com/welcome?code='.$info['key'], $html);
 
                 $body_text = strip_tags($text);
               
                 break;
             case 'welcome':
                 
-                $subject = 'Welcome to Hacker Experience!';
+                $subject = 'Welcome to HackerGuilds!';
                 
                 $html = file_get_contents(_('/var/www/ses/tpl/welcome.html'));
                 

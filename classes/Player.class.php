@@ -1805,7 +1805,7 @@ $news->listIndex(3);
                             <div class="widget-content">
                                 <?php echo _('We are sad to hear you want to leave. You can delete your account at anytime, however there is no automatic way to do this for now.'); ?>
                                 <br/>
-                                    <?php echo _('Please drop us an email at ')._('contact@hackerexperience.com')._(' asking us to remove your account. If possible, let us know why you are leaving.'); ?>
+                                    <?php echo _('Please drop us an email at ')._('contact@HackerGuilds.com')._(' asking us to remove your account. If possible, let us know why you are leaving.'); ?>
                                 <br/>
                                 <?php echo _('A verification e-mail will be sent to you.'); ?>
                             </div>

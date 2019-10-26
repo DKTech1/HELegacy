@@ -286,7 +286,7 @@ if($session->issetLogin() || $loggedOut){
                 $text .= '<span class=\"credit-sole\">Victor Scattone</span><br/>';
                 $text .= '<span class=\"credit-sole\"><a href=\"http://stackoverflow.com/\">Stack Overflow ♥</a></span><br/></p>';
                 
-                $text .= '<br/><span class=\"small\">'._('You should be here?').' <a class=\"black\" href=\"mailto:'._('contact@hackerexperience.com').'\">'._('Contact us').'</a>!</span>';
+                $text .= '<br/><span class=\"small\">'._('You should be here?').' <a class=\"black\" href=\"mailto:'._('contact@HackerGuilds.com').'\">'._('Contact us').'</a>!</span>';
                 
                 $text .= '';
                 $btn = '<a data-dismiss=\"modal\" class=\"btn\" href=\"#\">'._('Ok').'</a>';

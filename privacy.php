@@ -5,7 +5,7 @@
 $l = 'en_US';
 
 if(isset($_SERVER['HTTP_HOST'])){
-    if($_SERVER['HTTP_HOST'] == 'br.hackerexperience.com' || $_SERVER['HTTP_HOST'] == 'www.br.hackerexperience.com'){
+    if($_SERVER['HTTP_HOST'] == 'br.HackerGuilds.com' || $_SERVER['HTTP_HOST'] == 'www.br.HackerGuilds.com'){
         $l = 'pt_BR';
     }
 }
@@ -52,9 +52,9 @@ ul {
 <body>
 
 <h1><?php echo _('Privacy Matters'); ?></h1>
-<h6>Hacker Experience <?php echo _('Privacy Policy'); ?></h6>
+<h6>HackerGuilds <?php echo _('Privacy Policy'); ?></h6>
 
-<?php echo _('Privacy is top priority at Hacker Experience, and we like to explain our Privacy Policy in clear and simple words:'); ?><br/><br/>
+<?php echo _('Privacy is top priority at HackerGuilds, and we like to explain our Privacy Policy in clear and simple words:'); ?><br/><br/>
 
 <li><?php echo _('Personal information you provide us'); ?></li>
 
@@ -74,8 +74,8 @@ ul {
 
 <ul>- <?php echo _('Piwik - <a href="http://piwik.org">Piwik</a> is an <i>open source</i> web analytics platform that respects it\'s users privacy.'); ?> </ul>
 <ul>- <?php echo _('New Relic - New Relic provides better statistics regarding page load and application aspects. No personal-identifying information is collected.'); ?></ul>
-<ul>- <?php echo _('Cookies - We use cookies to enable a more personal experience on the game. We do not track other sites than hackerexperience.com. Hacker Experience might not work without cookies.'); ?></ul>
-<ul>- <?php echo _('Google Adsense - Google Ads help keep Hacker Experience free.'); ?></ul>
+<ul>- <?php echo _('Cookies - We use cookies to enable a more personal experience on the game. We do not track other sites than HackerGuilds.com. HackerGuilds might not work without cookies.'); ?></ul>
+<ul>- <?php echo _('Google Adsense - Google Ads help keep HackerGuilds free.'); ?></ul>
  
 <li><?php echo _('We protect'); ?></li>
 
@@ -90,7 +90,7 @@ ul {
 
 <li><?php echo _('We use Google AdSense, that'); ?></li>
 
-<ul>- <?php echo _('Uses cookies to serve ads based on a user\'s prior visits to Hacker Experience.'); ?></ul>
+<ul>- <?php echo _('Uses cookies to serve ads based on a user\'s prior visits to HackerGuilds.'); ?></ul>
 <ul>- <?php echo _('Uses DoubleClick*, a cookie that enables it and its partners to serve ads to you based on your previous accesses to other sites on the Internet.'); ?></ul><br/>
 
 
@@ -98,7 +98,7 @@ ul {
 
 <li><?php echo _('Please note'); ?></li>
 
-<ul>- <?php echo _('The use of the site constites your full acceptance of our Privacy Policy. If you do not agree with it, please refrain from using www.hackerexperience.com and all related domains.'); ?></ul>
+<ul>- <?php echo _('The use of the site constites your full acceptance of our Privacy Policy. If you do not agree with it, please refrain from using www.HackerGuilds.com and all related domains.'); ?></ul>
 <ul>- <?php echo _('We may change our privacy policy from time to time. Although efforts will be made to announce any changes on the Forum Announcements Board, we may do so in our sole discretion. Your continued use of this site after any change in this Privacy Policy will constitute your acceptance of such change. Therefore, we encourage you to visit this page regularly.'); ?></ul>
 
 <br/><br/>
@@ -110,7 +110,7 @@ if($l == 'pt_BR'){
 ?>
 <center>
 <strong><?php echo _('You can opt out of our tracking analytics at any time using the checkbox below'); ?></strong><br/>
-<iframe style="border: 0; height: 200px; width: 600px;" src="http://piwik.hackerexperience.com/index?module=CoreAdminHome&action=optOut&language=<?php echo $piwik_l; ?>"></iframe>
+<iframe style="border: 0; height: 200px; width: 600px;" src="http://piwik.HackerGuilds.com/index?module=CoreAdminHome&action=optOut&language=<?php echo $piwik_l; ?>"></iframe>
 <br/><br/>
 <strong><?php echo _('We use, follow and recommend the ACM code of ethics'); ?></strong><br/>
 

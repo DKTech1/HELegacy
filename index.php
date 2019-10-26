@@ -28,27 +28,27 @@ if(!isset($_SESSION['id'])){
     
     if($_SERVER['REQUEST_METHOD'] == 'GET' && isset($_GET['code']) || isset($_SESSION['FBLOGIN'])){
                 
-        $fbServerURL = 'http://hackerexperience.com/';
+        $fbServerURL = 'http://HackerGuilds.com/';
 
         if(isset($_SERVER['HTTP_HOST'])){
-            if($_SERVER['HTTP_HOST'] == 'br.hackerexperience.com'){
-                $fbServerURL = 'http://br.hackerexperience.com/';
-            } elseif($_SERVER['HTTP_HOST'] == 'en.hackerexperience.com'){
-                $fbServerURL = 'http://en.hackerexperience.com/';
+            if($_SERVER['HTTP_HOST'] == 'br.HackerGuilds.com'){
+                $fbServerURL = 'http://br.HackerGuilds.com/';
+            } elseif($_SERVER['HTTP_HOST'] == 'en.HackerGuilds.com'){
+                $fbServerURL = 'http://en.HackerGuilds.com/';
             }
         }
         
         // 2019: Update the links, the appId and the appSecret below in order to enable FB login
         switch($fbServerURL){
-            case 'http://hackerexperience.com/':
+            case 'http://HackerGuilds.com/':
                 $appID = 0;
                 $appSecret = 'REDACTED';
                 break;
-            case 'http://br.hackerexperience.com/':
+            case 'http://br.HackerGuilds.com/':
                 $appID = 0;
                 $appSecret = 'REDACTED';
                 break;
-            case 'http://en.hackerexperience.com/':
+            case 'http://en.HackerGuilds.com/':
                 $appID = 0;
                 $appSecret = 'REDACTED';
                 break;

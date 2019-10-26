@@ -1,5 +1,5 @@
  /*
- * CUSTOM FILE FOR HACKER EXPERIENCE!!!
+ * CUSTOM FILE FOR HackerGuilds!!!
  * TipTip
  * Copyright 2010 Drew Wilson
  * www.drewwilson.com

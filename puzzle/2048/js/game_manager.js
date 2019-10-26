@@ -182,7 +182,7 @@ GameManager.prototype.move = function (direction) {
           // The mighty 2048 tile
           if (merged.value === 2048) self.won = true;
 
-          //CUSTOM HE HACKER EXPERIENCE BEGIN
+          //CUSTOM HE HackerGuilds BEGIN
 
           if(typeof(this.hinttype) === 'undefined'){
             this.hinttype = 0;
@@ -233,7 +233,7 @@ GameManager.prototype.move = function (direction) {
             });
           }
 
-          //CUSTOM HE HACKER EXPERIENCE END
+          //CUSTOM HE HackerGuilds END
 
 
         } else {

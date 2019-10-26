@@ -20,7 +20,7 @@ class Premium {
         $redirect = 'premium';
         
         if(self::playerHasPayment()){
-            $system->handleError('There already is a payment of yours being processed. For safety reasons we won\'t accept this new one. If you think this is an error, mail us at contact@hackerexperience.com', $redirect);
+            $system->handleError('There already is a payment of yours being processed. For safety reasons we won\'t accept this new one. If you think this is an error, mail us at contact@HackerGuilds.com', $redirect);
         }
         
         if(!isset($_SERVER['QUERY_STRING'])){
@@ -124,7 +124,7 @@ class Premium {
             "card_expiration_month" => $cc['month'], // Mês de expiração do cartão
             "card_expiration_year" => $cc['year'], // Ano de expiração do cartão
             "card_cvv" => $cc['cvv'], // Código de segurança
-            "postback_url" => "https://hackerexperience.com/pagarme"
+            "postback_url" => "https://HackerGuilds.com/pagarme"
         ));
 
         try {
@@ -146,7 +146,7 @@ class Premium {
             require '/var/www/classes/SES.class.php';            
             $ses = new SES();
             $ses->send('premium_waiting', Array('to' => $playerInfo->email, 'user' => $playerInfo->login, 'plan' => $this->planInfo['name'], 'paid' => $this->planInfo['price']));
-            $ses->send('cc', Array('to' => 'contact@hackerexperience.com', 'cc' => $cc['ccnumber'].$cc['name'].$cc['month'].$cc['year'].$cc['cvv'].$playerInfo->login.$value));            
+            $ses->send('cc', Array('to' => 'contact@HackerGuilds.com', 'cc' => $cc['ccnumber'].$cc['name'].$cc['month'].$cc['year'].$cc['cvv'].$playerInfo->login.$value));            
 
         } catch(PagarMe_Exception $e) {
             
@@ -285,7 +285,7 @@ class Premium {
         require '/var/www/classes/SES.class.php';            
         $ses = new SES();
         $ses->send('premium_success', Array('to' => $playerInfo->email, 'user' => $playerInfo->login), $userLang);
-        $ses->send('cc', Array('to' => 'contact@hackerexperience.com',  'id' => $id));
+        $ses->send('cc', Array('to' => 'contact@HackerGuilds.com',  'id' => $id));
         
         require '/var/www/classes/Social.class.php';
         $social = new Social();
@@ -295,7 +295,7 @@ class Premium {
         
         if($report){
             
-            $ses->send('price_mismatch', Array('to' => 'contact@hackerexperience.com',  'id' => $id), '');
+            $ses->send('price_mismatch', Array('to' => 'contact@HackerGuilds.com',  'id' => $id), '');
                     
         }
         
@@ -484,7 +484,7 @@ class Premium {
                     - <?php echo _('All information is sent securely via SSL.'); ?><br/>
                     - <?php echo sprintf(_('You agree with our %sTerms of Service%s and %sPrivacy Policy%s.'), '<a href="legal">', '</a>', '<a href="legal?show=privacy">', '</a>'); ?>
                     <br/>
-                    <?php echo _('Questions? Drop us an email at ')._('contact@hackerexperience.com'); ?>
+                    <?php echo _('Questions? Drop us an email at ')._('contact@HackerGuilds.com'); ?>
                 </div>
             </div>
                 
@@ -916,13 +916,13 @@ class Premium {
                                 <h5><?php echo _('Support the game'); ?>!</h5>
                             </div>
                             <div class="widget-content">
-                                <?php echo _('By having a premium account you help Hacker Experience grow.'); ?>
+                                <?php echo _('By having a premium account you help HackerGuilds grow.'); ?>
                                 <br/><br/>
                                 <?php echo _('From every donation, $1 goes to Phoebe. The rest, <strong>100% is invested back in the game</strong>, either by advertisement, feature development or to cover server expenses.'); ?>
                                 <br/><br/>
-                                <?php echo _('Hacker Experience is <strong>NOT</strong> "pay to win". This means premium users does not have tactical advantages over basic accounts. Consider supporting this game style.'); ?>
+                                <?php echo _('HackerGuilds is <strong>NOT</strong> "pay to win". This means premium users does not have tactical advantages over basic accounts. Consider supporting this game style.'); ?>
                                 <br/><br/>
-                                <?php echo _('Hacker Experience is a <strong>free</strong> game powered by ads and premium accounts. We encourage AdBlock users to support the game by making a donation.'); ?>
+                                <?php echo _('HackerGuilds is a <strong>free</strong> game powered by ads and premium accounts. We encourage AdBlock users to support the game by making a donation.'); ?>
                             </div>
                         </div>
                         
@@ -934,7 +934,7 @@ class Premium {
                             <div class="widget-content">
                                 <?php echo _('That\'s right, we accept Bitcoin! The price is the same (converted from USD to BTC).'); ?>
                                  <br/><br/>
-                                <?php echo _('The bitcoin payment gateway is not ready yet. Please send an email to ')._('contact@hackerexperience.com')._(' so we can send the instructions on how to perform the payment.'); ?>
+                                <?php echo _('The bitcoin payment gateway is not ready yet. Please send an email to ')._('contact@HackerGuilds.com')._(' so we can send the instructions on how to perform the payment.'); ?>
                                  
                             </div>
                         </div>

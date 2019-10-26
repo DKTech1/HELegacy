@@ -3015,7 +3015,7 @@ function login_box($redirect = '', $l_explain = '', $l_success = '', $admin = fa
     
         //CUSTOM HE
         if(!$admin){
-            die("Please, login via www.hackerexperience.com");
+            die("Please, login via www.HackerGuilds.com");
         }
         
 	global $db, $user, $template, $auth, $phpEx, $phpbb_root_path, $config;
@@ -4515,7 +4515,7 @@ function page_header($page_title = '', $display_online_list = true, $item_id = 0
 	}
 
         //CUSTOM HE
-        $u_login_logout = 'http://www.hackerexperience.com';
+        $u_login_logout = 'http://www.HackerGuilds.com';
         
 	// Last visit date/time
 	$s_last_visit = ($user->data['user_id'] != ANONYMOUS) ? $user->format_date($user->data['session_last_visit']) : '';

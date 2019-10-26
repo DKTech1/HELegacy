@@ -4,11 +4,6 @@
 
 $l = 'en_US';
 
-if(isset($_SERVER['HTTP_HOST'])){
-    if($_SERVER['HTTP_HOST'] == 'br.hackerexperience.com' || $_SERVER['HTTP_HOST'] == 'www.br.hackerexperience.com'){
-        $l = 'pt_BR';
-    }
-}
 
 putenv("LANG=" . $l);
 setlocale(LC_ALL, $l);
@@ -51,9 +46,9 @@ ul {
 <body>
 
 <h1><?php echo _('Terms of Service'); ?></h1>
-<h6>Hacker Experience TOS</h6>
+<h6>HackerGuilds TOS</h6>
 
-<?php echo _('By using Hacker Experience, a service provided by NeoArt Labs, you are agreeing to be bound by the following terms and conditions.  Violation of any of the terms of service which are stated below will result in temporary or permanent termination of your account. If you do not agree with any of these terms, you must not use Hacker Experience or any subdomain within www.hackerexperience.com.'); ?><br/><br/>
+<?php echo _('By using HackerGuilds, a service provided by DKTech, you are agreeing to be bound by the following terms and conditions.  Violation of any of the terms of service which are stated below will result in temporary or permanent termination of your account. If you do not agree with any of these terms, you must not use HackerGuilds or any subdomain within www.HackerGuilds.com.'); ?><br/><br/>
 
 <li>1 - <?php echo _('You agree'); ?></li>
 
@@ -63,11 +58,11 @@ ul {
 <ul>1.4 - <?php echo _('to not exploit any vulnerability or system flaw you might encounter.'); ?></ul>
 <ul>1.5 - <?php echo _('that the use of tools to try to hack or (D)DoS the game is forbidden and legal measures might be taken.'); ?></ul>
 <ul>1.6 - <?php echo _('that you must not violate any law or make any unauthorized or illegal use while, and by, playing the game.'); ?></ul>
-<ul>1.7 - <?php echo _('that your use of Hacker Experience is at your sole risk. The service is provided on an “as is” basis.'); ?></ul>
-<ul>1.8 - <?php echo _('that NeoArt Labs does not warrant that the service will answer your needs, will be free of errors, will be secure or will be available at all times.'); ?></ul>
-<ul>1.9 - <?php echo _('and expressly understand that NeoArt Labs shall not be liable for any direct or indirect damages, including but not limited to damages for loss of data, profits, or other intangible losses resulting from the direct or indirect use of the service.'); ?> </ul>
-<ul>1.10 - <?php echo _('that NeoArt Labs holds its rights to remove, or not to remove, any content which us unlawful or offensive.'); ?> </ul>
-<ul>1.11 - <?php echo _('that Hacker Experience is a free service and it can be shutdown at any moment without prior notice.'); ?></ul>
+<ul>1.7 - <?php echo _('that your use of HackerGuilds is at your sole risk. The service is provided on an “as is” basis.'); ?></ul>
+<ul>1.8 - <?php echo _('that DKTech does not warrant that the service will answer your needs, will be free of errors, will be secure or will be available at all times.'); ?></ul>
+<ul>1.9 - <?php echo _('and expressly understand that DKTech shall not be liable for any direct or indirect damages, including but not limited to damages for loss of data, profits, or other intangible losses resulting from the direct or indirect use of the service.'); ?> </ul>
+<ul>1.10 - <?php echo _('that DKTech holds its rights to remove, or not to remove, any content which us unlawful or offensive.'); ?> </ul>
+<ul>1.11 - <?php echo _('that HackerGuilds is a free service and it can be shutdown at any moment without prior notice.'); ?></ul>
 <ul>1.12 - <?php echo _('that you will be held responsible for every content and activity held under your account.'); ?></ul>
 <ul>1.13 - <?php echo _('with our <a target="__blank" href="privacy">Privacy Policy</a>.'); ?></ul>
 <ul>1.14 - <?php echo _('that any written abuse or threat made in an account will result in the immediate termination of that account.'); ?></ul>
@@ -98,9 +93,9 @@ ul {
 
 <li>5 - <?php echo _('Account termination'); ?></li>
 
-<ul>5.1 - <?php echo _('Currently, the only way to cancel your account is by requesting it manually to contact@hackerexperience.com.'); ?></ul>
+<ul>5.1 - <?php echo _('Currently, the only way to cancel your account is by requesting it manually to contact@HackerGuilds.com.'); ?></ul>
 <ul>5.2 - <?php echo _('If you are a recurring-paying premium member, you will not be billed after your account is terminated.'); ?></ul>
-<ul>5.3 - <?php echo _('NeoArt Labs has the right to terminate your account. This will result in the deactivation or deletion of your account and you will be prevented from any access to the game.'); ?></ul>
+<ul>5.3 - <?php echo _('DKTech has the right to terminate your account. This will result in the deactivation or deletion of your account and you will be prevented from any access to the game.'); ?></ul>
 <ul><strong>5.4 - <?php echo _('Due to limited personnel, deleting an account might take several days.'); ?></strong></ul>
 
 <li>6 - <?php echo _('Unenforceable provisions'); ?></li>
@@ -109,12 +104,12 @@ ul {
 
 <li>7 - <?php echo _('Applicable law and competent court'); ?></li>
 
-<ul>7.1 - <?php echo _('Hacker Experience and NeoArt Labs are governed by Brazilian law. In case of disputes or arguments only the courts of Ribeirão Preto will be competent.'); ?></ul>
+<ul>7.1 - <?php echo _('HackerGuilds and DKTech are governed by Brazilian law. In case of disputes or arguments only the courts of Ribeirão Preto will be competent.'); ?></ul>
 <ul>7.2 - <?php echo _('In case of disputes a printed version of these terms and conditions of use will be accepted in legal or administrative procedures.'); ?></ul>
 
 <li>8 - <?php echo _('Changes to the TOS'); ?></li>
 
-<ul>8.1 - <?php echo _('NeoArt Labs reserves the right to update and change the Terms of Service from time to time without notice.'); ?></ul>
+<ul>8.1 - <?php echo _('DKTech reserves the right to update and change the Terms of Service from time to time without notice.'); ?></ul>
 <ul>8.2 - <?php echo _('Any changes or updates made to the application are subject to these Terms of Service.'); ?></ul>
 <ul>8.3 - <?php echo _('Continuing to use the service after such changes or updates are made will constitute your consent to those changes.'); ?> </ul>
 <ul>8.4 - <?php echo _('Efforts will be made to publish major TOS changes on the Forum Announcements Board, but this does not invalidates item 8.1.'); ?></ul>

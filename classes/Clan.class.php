@@ -2635,7 +2635,7 @@ var uid = <?php echo $this->clanID; ?>;
             if($_SERVER['SERVER_NAME'] == 'localhost'){
                 $forumLink = '/forum/viewforum?f='.$forumClanID['forum_id'];
             } else {
-                $forumLink = 'https://forum.hackerexperience.com/viewforum.php?f='.$forumClanID['forum_id'];
+                $forumLink = 'https://forum.HackerGuilds.com/viewforum.php?f='.$forumClanID['forum_id'];
             }
             
             ?>

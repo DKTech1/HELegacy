@@ -59,7 +59,7 @@ switch ($mode)
 	break;
 
 	case 'register':
-                die("Please, register via www.hackerexperience.com");
+                die("Please, register via www.HackerGuilds.com");
 		if ($user->data['is_registered'] || isset($_REQUEST['not_agreed']))
 		{
 			redirect(append_sid("{$phpbb_root_path}index.$phpEx"));
@@ -79,13 +79,13 @@ switch ($mode)
 			redirect(append_sid("{$phpbb_root_path}index.$phpEx"));
 		}                
                 //CUSTOM HE
-                //die("Please, login via www.hackerexperience.com");
+                //die("Please, login via www.HackerGuilds.com");
 		login_box(request_var('redirect', "index.$phpEx"));
 	break;
 
 	case 'logout':
                 //CUSTOM HE
-                die("Please, logout via www.hackerexperience.com");
+                die("Please, logout via www.HackerGuilds.com");
 		if ($user->data['user_id'] != ANONYMOUS && isset($_GET['sid']) && !is_array($_GET['sid']) && $_GET['sid'] === $user->session_id)
 		{
 			$user->session_kill();

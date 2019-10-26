@@ -50,7 +50,7 @@ if($_SERVER['REQUEST_METHOD'] != 'POST' && !isset($_GET['code'])){
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <meta name="description" content="">
             <meta name="author" content="">
-            <title>Hacker Experience</title>
+            <title>HackerGuilds</title>
             <link href="css/bootstrap.css" rel="stylesheet">
             <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
             <link href="css/he_index.css" rel="stylesheet">
@@ -63,7 +63,7 @@ if($_SERVER['REQUEST_METHOD'] != 'POST' && !isset($_GET['code'])){
                         <div class="col-lg-12">
                         <span id="error-msg" class="alert alert-danger" style="display:none;"></span>
                             <div class="intro-message">
-                                <h1>Hacker Experience</h1>
+                                <h1>HackerGuilds</h1>
                                 <h3 class="digital"><?php echo _('The Internet under attack'); ?><span class="a_bebida_que_pisca">_</span></h3>
                                 <hr class="intro-divider">
                                 <ul class="list-inline intro-social-buttons">

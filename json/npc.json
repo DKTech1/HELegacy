@@ -952,8 +952,8 @@
         "net": 10
       },
       "web": {
-        "en": "<iframe src=\"http://ihackernews.com/\" width=\"100%\" height=\"500\" seamless></iframe><br/><br/> Disclaimer: (<a href=\"http://ihackernews.com/\">i</a>)<a href=\"https://news.ycombinator.com/\">HackerNews</a> is not related to Hacker Experience in any way.",
-        "pt": "<iframe src=\"http://ihackernews.com/\" width=\"100%\" height=\"500\" seamless></iframe><br/><br/> Aviso: (<a href=\"http://ihackernews.com/\">i</a>)<a href=\"https://news.ycombinator.com/\">HackerNews</a> não tem nenhuma relação com Hacker Experience."
+        "en": "<iframe src=\"http://ihackernews.com/\" width=\"100%\" height=\"500\" seamless></iframe><br/><br/> Disclaimer: (<a href=\"http://ihackernews.com/\">i</a>)<a href=\"https://news.ycombinator.com/\">HackerNews</a> is not related to HackerGuilds in any way.",
+        "pt": "<iframe src=\"http://ihackernews.com/\" width=\"100%\" height=\"500\" seamless></iframe><br/><br/> Aviso: (<a href=\"http://ihackernews.com/\">i</a>)<a href=\"https://news.ycombinator.com/\">HackerNews</a> não tem nenhuma relação com HackerGuilds."
       }
     },
     "6": {
