@@ -1,24 +1,10 @@
 # Hacker Experience Legacy
 
-This is the source-code for Legacy, the first version of Hacker Experience I built from 2012-2014 and published on 2014. I made a promise I'd release it and here it is.
+The legacy codebase of HackerExperience. We hope to revive the once thriving community of this game by updating the codebase to remove some of the issues, such as the memory leak issues, as well as to reduce the effectiveness of cheating tools such as HExBot. We also hope to add some new mechanics to the game, as well as to update some of the UI elements in order to bring this game to a much more relevant state.
 
-Legacy reached the 1-million registered players milestone 5 years after it was released, and soon after I decided to shut it down, since I no longer could maintain it. [Context about why I decided to shut it down](https://medium.com/@renatomassaro/updates-on-hacker-experience-legacy-eb5a9e0aee33).
 
-If you were one of these players, I hope you had a good time with Legacy! I also hope that, by releasing its code, someone else can maintain a server on which you can keep playing it.
+Documentation can be found at the `info/` folder. Keep in mind it might be outdated, but it's better than nothing.
 
-## Disclaimer
-
-Legacy was my first programming project. I learned to code by building Legacy. As such, its codebase is *terrible*. It has no tests, no architecture, virtually no documentation and no warranties that it will work as expected, or in a secure manner. In fact, it's more likely it will *not* work as expected. You've been warned.
-
-## Documentation
-
-The closest I have to a documentation can be found at the `info/` folder. Keep in mind it might be outdated, but it's better than nothing.
-
-## Redactions and comments
-
-This is the exact same code that powered Legacy, except for a few hard-coded passwords and API keys that were replaced with the `REDACTED` strings. I also removed images.
-
-I did a quick code-review and added some comments that might help you understand the code. I also added translations to comments in Portuguese (except for the ones I had no idea what I wrote originally). All my comments are prefixed with `2019: `.
 
 ## Setup
 
@@ -40,20 +26,3 @@ I did not include with the source code most of the images and icons used in the 
 
 Most of the game icons were from the amazing [famfamfam](http://www.famfamfam.com/lab/icons/silk/) iconset. You can use it as long as you credit it.
 
-## Credits
-
-The original Legacy had a credits section at the bottom of the page, which is included in the source code. Please make sure to update it accordingly.
-
-Please make sure to remove any comment or phrase that could be understood as an endorsement from myself or Neoart Labs.
-
-## Affiliation disclaimer
-
-All game servers that are based off of Legacy's codebase are in no way affiliated, endorsed or recommended by myself or Neoart Labs.
-
-## Data disclaimer
-
-I did not and I will not release the database contents from Legacy (including registered players' emails and usernames). In fact the last backup I had has been destroyed for good.
-
-## Limitation of liability
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
