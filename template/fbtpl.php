@@ -3,7 +3,7 @@
 $l = 'en_US';
 
 if(isset($_SERVER['HTTP_HOST'])){
-    if($_SERVER['HTTP_HOST'] == 'br.hackerexperience.com' || $_SERVER['HTTP_HOST'] == 'www.br.hackerexperience.com'){
+    if($_SERVER['HTTP_HOST'] == 'br.HackerGuilds.com' || $_SERVER['HTTP_HOST'] == 'www.br.HackerGuilds.com'){
         $l = 'pt_BR';
     }
 }
@@ -29,26 +29,26 @@ if(!isset($_SESSION['SPECIAL_ID'])){
 
 require_once '/var/www/classes/Facebook.class.php';
 
-$fbServerURL = 'http://hackerexperience.com/';
+$fbServerURL = 'http://HackerGuilds.com/';
 
 if(isset($_SERVER['HTTP_HOST'])){
-    if($_SERVER['HTTP_HOST'] == 'br.hackerexperience.com'){
-        $fbServerURL = 'http://br.hackerexperience.com/';
-    } elseif($_SERVER['HTTP_HOST'] == 'en.hackerexperience.com'){
-        $fbServerURL = 'http://en.hackerexperience.com/';
+    if($_SERVER['HTTP_HOST'] == 'br.HackerGuilds.com'){
+        $fbServerURL = 'http://br.HackerGuilds.com/';
+    } elseif($_SERVER['HTTP_HOST'] == 'en.HackerGuilds.com'){
+        $fbServerURL = 'http://en.HackerGuilds.com/';
     }
 }
         
 switch($fbServerURL){
-    case 'http://hackerexperience.com/':
+    case 'http://HackerGuilds.com/':
         $appID = 0;
         $appSecret = 'REDACTED';
         break;
-    case 'http://br.hackerexperience.com/':
+    case 'http://br.HackerGuilds.com/':
         $appID = 0;
         $appSecret = 'REDACTED';
         break;
-    case 'http://en.hackerexperience.com/':
+    case 'http://en.HackerGuilds.com/':
         $appID = 0;
         $appSecret = 'REDACTED';
         break;
@@ -209,7 +209,7 @@ if(isset($_POST['fbuser']) || isset($_POST['predefined'])){
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="">
         <meta name="author" content="">
-        <title>Hacker Experience</title>
+        <title>HackerGuilds</title>
         <link href="css/bootstrap.css" rel="stylesheet">
         <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
         <link href="css/he_index.css" rel="stylesheet">

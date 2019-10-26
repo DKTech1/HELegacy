@@ -46,7 +46,7 @@ if($system->issetGet('show')){
     <div class="span12">
         <div class="alert alert-error">
             <button class="close" data-dismiss="alert">×</button>
-            <?php echo _('<strong>Attention!</strong> By playing Hacker Experience you consent with the following terms, so read them carefully!'); ?>
+            <?php echo _('<strong>Attention!</strong> By playing HackerGuilds you consent with the following terms, so read them carefully!'); ?>
         </div>
         <div class="widget-box ">
             <div class="widget-title">

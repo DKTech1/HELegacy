@@ -47,9 +47,9 @@ $staticUptime = format_uptime($uptimeSecs);
 <html>
     <head>
         
-    <title>Status - Hacker Experience</title>
+    <title>Status - HackerGuilds</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-    <script type="text/javascript" src="https://hackerexperience.com/js/jquery.min.js"></script>
+    <script type="text/javascript" src="https://HackerGuilds.com/js/jquery.min.js"></script>
     <script type="text/javascript" src="counter.js"></script>
 
     <link rel="stylesheet" type="text/css" href="he_status.css" />        

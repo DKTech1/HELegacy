@@ -1,8 +1,8 @@
-====== The Hacker Experience Official Wiki ======
+====== The HackerGuilds Official Wiki ======
 
-===== What is Hacker Experience =====
+===== What is HackerGuilds =====
 
-Hacker Experience is a free hacking simulation game. Play now: www.hackerexperience.com
+HackerGuilds is a free hacking simulation game. Play now: www.HackerGuilds.com
 
 ~~NOTOC~~
 ===== Using the Wiki =====
@@ -11,4 +11,4 @@ Navigate through the contents on the left sidebar.
 
 This wiki is currently supported in two languages: English and Portuguese.
 
-Having any questions don't hesitate to contact us at contact@hackerexperience.com
+Having any questions don't hesitate to contact us at contact@HackerGuilds.com

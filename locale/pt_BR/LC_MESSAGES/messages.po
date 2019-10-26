@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Hacker Experience\n"
+"Project-Id-Version: HackerGuilds\n"
 "POT-Creation-Date: 2014-08-24 00:32-0300\n"
 "PO-Revision-Date: 2014-08-24 04:16-0300\n"
 "Last-Translator: \n"
@@ -1186,8 +1186,8 @@ msgstr "Agradecimentos especiais"
 msgid "You should be here?"
 msgstr "Você devia estar aqui?"
 
-msgid "contact@hackerexperience.com"
-msgstr "contato@hackerexperience.com"
+msgid "contact@HackerGuilds.com"
+msgstr "contato@HackerGuilds.com"
 
 msgid "Contact us"
 msgstr "Entre em contato"
@@ -1345,17 +1345,17 @@ msgstr "Notificações (breve)"
 msgid "Support the game"
 msgstr "Apoie o jogo"
 
-msgid "By having a premium account you help Hacker Experience grow."
-msgstr "Ao ter uma conta premium você colabora com o crescimento de Hacker Experience."
+msgid "By having a premium account you help HackerGuilds grow."
+msgstr "Ao ter uma conta premium você colabora com o crescimento de HackerGuilds."
 
 msgid "From every donation, $1 goes to Phoebe. The rest, <strong>100% is invested back in the game</strong>, either by advertisement, feature development or to cover server expenses."
 msgstr "De cada doação, R$1 vai pra Phoebe. Do resto, <strong>100% é investido de volta no jogo</strong>, seja para propagandas, desenvolvimento de novos recursos ou para cobrir os custos dos servidores."
 
-msgid "Hacker Experience is <strong>NOT</strong> \"pay to win\". This means premium users does not have tactical advantages over basic accounts. Consider supporting this game style."
-msgstr "Hacker Experience <strong>NÃO</strong> é \"pague pra vencer\". Isso significa que contas premium não têm vantagens táticas sobre contas básicas. Considere dar apoio a esse estilo de jogo."
+msgid "HackerGuilds is <strong>NOT</strong> \"pay to win\". This means premium users does not have tactical advantages over basic accounts. Consider supporting this game style."
+msgstr "HackerGuilds <strong>NÃO</strong> é \"pague pra vencer\". Isso significa que contas premium não têm vantagens táticas sobre contas básicas. Considere dar apoio a esse estilo de jogo."
 
-msgid "Hacker Experience is a <strong>free</strong> game powered by ads and premium accounts. We encourage AdBlock users to support the game by making a donation."
-msgstr "Hacker Experience é um jogo <strong>gratuito</strong> financiado por propagandas e contas premium. Nós incentivamos os usuários de AdBlock a apoiar o jogo fazendo uma doação."
+msgid "HackerGuilds is a <strong>free</strong> game powered by ads and premium accounts. We encourage AdBlock users to support the game by making a donation."
+msgstr "HackerGuilds é um jogo <strong>gratuito</strong> financiado por propagandas e contas premium. Nós incentivamos os usuários de AdBlock a apoiar o jogo fazendo uma doação."
 
 msgid "We accept bitcoin"
 msgstr "Nós aceitamos bitcoin"
@@ -1483,11 +1483,11 @@ msgstr "Sobre"
 msgid "Keep me logged in"
 msgstr "Mantenha-me logado"
 
-msgid "About Hacker Experience"
-msgstr "Sobre Hacker Experience"
+msgid "About HackerGuilds"
+msgstr "Sobre HackerGuilds"
 
-msgid "Hacker Experience is a browser-based hacking simulation game, where you play the role of a hacker seeking for money and power."
-msgstr "Hacker Experience é um browser-game de simulação de hacking, onde você assume o papel de um hacker buscando dinheiro e poder."
+msgid "HackerGuilds is a browser-based hacking simulation game, where you play the role of a hacker seeking for money and power."
+msgstr "HackerGuilds é um browser-game de simulação de hacking, onde você assume o papel de um hacker buscando dinheiro e poder."
 
 msgid "Play online against other users from all the globe on an exciting battle to see who can conquer the Internet."
 msgstr "Jogue online contra vários outros usuários do mundo todo numa emocionante batalha para ver quem consegue conquistar a Internet."
@@ -1603,8 +1603,8 @@ msgstr "<a href=\"http://duartes.org/gustavo/blog/post/first-recorded-usage-of-h
 msgid "Regardless of definition, we want our users to enjoy the game, whether they call it Hacker or Cracker Experience. That's it, name whatever you want."
 msgstr "Independente de definição, nós queremos que nossos usuários curtam o jogo, prefiram eles Hacker ou Cracker Experience. É isso, chame do que você quiser."
 
-msgid "Meanwhile, we have a special <a href=\"https://forum.hackerexperience.com/\">board designated to teach computer science and programming</a> for people. Instead of engaging into useless flame wars, feel free to join and share your knowledge to others. I'd call <em>that</em> hacker :)"
-msgstr "Enquanto isso, nós temos um <a href=\"https://forum.hackerexperience.com/\">fórum especial com o objetivo de ensinar ciência da computação e programação</a> para usuários. Em vez de participar de flame wars inúteis, sinta-se à vontade para entrar e compartilhar seu conhecimento com outros. Eu chamaria <em>isso</em> de hacker :)"
+msgid "Meanwhile, we have a special <a href=\"https://forum.HackerGuilds.com/\">board designated to teach computer science and programming</a> for people. Instead of engaging into useless flame wars, feel free to join and share your knowledge to others. I'd call <em>that</em> hacker :)"
+msgstr "Enquanto isso, nós temos um <a href=\"https://forum.HackerGuilds.com/\">fórum especial com o objetivo de ensinar ciência da computação e programação</a> para usuários. Em vez de participar de flame wars inúteis, sinta-se à vontade para entrar e compartilhar seu conhecimento com outros. Eu chamaria <em>isso</em> de hacker :)"
 
 msgid "So, what are you waiting?"
 msgstr "Então, o que você está esperando?"
@@ -1612,8 +1612,8 @@ msgstr "Então, o que você está esperando?"
 msgid "LEGAL DISCLAIMER"
 msgstr "AVISO LEGAL"
 
-msgid "Hacker Experience is <strong>NOT</strong> related to any real hacking activity."
-msgstr "Hacker Experience <strong>NÃO</strong> está relacionado com nenhuma atividade real de hacking."
+msgid "HackerGuilds is <strong>NOT</strong> related to any real hacking activity."
+msgstr "HackerGuilds <strong>NÃO</strong> está relacionado com nenhuma atividade real de hacking."
 
 msgid "All in-game content is purely fictional and do not represent real user identification. IP addresses are randomly generated."
 msgstr "Todo o conteúdo do jogo é puramente fictício e não representa identificação de usuário real. Endereços IP são gerados aleatoriamente."
@@ -1636,8 +1636,8 @@ msgstr "Feito no Brasil"
 msgid "Terms of Service"
 msgstr "Termos de Serviço"
 
-msgid "By using Hacker Experience, a service provided by NeoArt Labs, you are agreeing to be bound by the following terms and conditions.  Violation of any of the terms of service which are stated below will result in temporary or permanent termination of your account. If you do not agree with any of these terms, you must not use Hacker Experience or any subdomain within www.hackerexperience.com."
-msgstr "Ao usar Hacker Experience, um serviço fornecido por NeoArt Labs, você concorda em seguir os seguintes termos e condições. Violações de qualquer um dos termos de serviço listados abaixo irá resultar em terminação temporária ou permanente da sua conta. Se você não concorda com algum desses termos, você não deve usar Hacker Experience ou qualquer subdomínio dentro de www.hackerexperience.com."
+msgid "By using HackerGuilds, a service provided by DKTech, you are agreeing to be bound by the following terms and conditions.  Violation of any of the terms of service which are stated below will result in temporary or permanent termination of your account. If you do not agree with any of these terms, you must not use HackerGuilds or any subdomain within www.HackerGuilds.com."
+msgstr "Ao usar HackerGuilds, um serviço fornecido por DKTech, você concorda em seguir os seguintes termos e condições. Violações de qualquer um dos termos de serviço listados abaixo irá resultar em terminação temporária ou permanente da sua conta. Se você não concorda com algum desses termos, você não deve usar HackerGuilds ou qualquer subdomínio dentro de www.HackerGuilds.com."
 
 msgid "You agree"
 msgstr "Você concorda"
@@ -1660,20 +1660,20 @@ msgstr "que o uso de ferramentas para tentar invadir ou \"(D)DoSar\" o jogo é p
 msgid "that you must not violate any law or make any unauthorized or illegal use while, and by, playing the game."
 msgstr "que você não pode violar nenhuma lei ou fazer nenhum uso ilegal ou não-autorizado enquanto jogando, ou usando, o jogo."
 
-msgid "that your use of Hacker Experience is at your sole risk. The service is provided on an “as is” basis."
-msgstr "que o uso de Hacker Experience está sob sua própria conta e risco. O serviço é fornecido na condição em que se encontra (\"as is\")."
+msgid "that your use of HackerGuilds is at your sole risk. The service is provided on an “as is” basis."
+msgstr "que o uso de HackerGuilds está sob sua própria conta e risco. O serviço é fornecido na condição em que se encontra (\"as is\")."
 
-msgid "that NeoArt Labs does not warrant that the service will answer your needs, will be free of errors, will be secure or will be available at all times."
-msgstr "que NeoArt Labs não garante que o serviço irá responder suas necessidades, será livre de erros, será seguro ou estará disponível o tempo todo."
+msgid "that DKTech does not warrant that the service will answer your needs, will be free of errors, will be secure or will be available at all times."
+msgstr "que DKTech não garante que o serviço irá responder suas necessidades, será livre de erros, será seguro ou estará disponível o tempo todo."
 
-msgid "and expressly understand that NeoArt Labs shall not be liable for any direct or indirect damages, including but not limited to damages for loss of data, profits, or other intangible losses resulting from the direct or indirect use of the service."
-msgstr "e expressamente compreende que NeoArt Labs não deve ser responsável por qualquer dano direto ou indireto, incluindo mas não limitado a danos de perda de dados, lucros ou outras perdas intangíveis resultantes do uso direto ou indireto do serviço."
+msgid "and expressly understand that DKTech shall not be liable for any direct or indirect damages, including but not limited to damages for loss of data, profits, or other intangible losses resulting from the direct or indirect use of the service."
+msgstr "e expressamente compreende que DKTech não deve ser responsável por qualquer dano direto ou indireto, incluindo mas não limitado a danos de perda de dados, lucros ou outras perdas intangíveis resultantes do uso direto ou indireto do serviço."
 
-msgid "that NeoArt Labs holds its rights to remove, or not to remove, any content which us unlawful or offensive."
-msgstr "que NeoArt Labs reserva seu direito de remover, ou não remover, qualquer conteúdo que seja considerado ofensivo ou ilegal."
+msgid "that DKTech holds its rights to remove, or not to remove, any content which us unlawful or offensive."
+msgstr "que DKTech reserva seu direito de remover, ou não remover, qualquer conteúdo que seja considerado ofensivo ou ilegal."
 
-msgid "that Hacker Experience is a free service and it can be shutdown at any moment without prior notice."
-msgstr "que Hacker Experience é um serviço gratuito e pode ser desligado a qualquer momento sem notícia prévia."
+msgid "that HackerGuilds is a free service and it can be shutdown at any moment without prior notice."
+msgstr "que HackerGuilds é um serviço gratuito e pode ser desligado a qualquer momento sem notícia prévia."
 
 msgid "that you will be held responsible for every content and activity held under your account."
 msgstr "que você será tido como responsável por qualquer conteúdo e atividade feito pela sua conta."
@@ -1732,14 +1732,14 @@ msgstr "mudanças nos preços das Contas Premium afetará somente novas compras 
 msgid "Account termination"
 msgstr "Terminação da conta"
 
-msgid "Currently, the only way to cancel your account is by requesting it manually to contact@hackerexperience.com."
-msgstr "Atualmente, a única forma de cancelar sua conta é fazendo uma requisiçao para contato@hackerexperience.com."
+msgid "Currently, the only way to cancel your account is by requesting it manually to contact@HackerGuilds.com."
+msgstr "Atualmente, a única forma de cancelar sua conta é fazendo uma requisiçao para contato@HackerGuilds.com."
 
 msgid "If you are a recurring-paying premium member, you will not be billed after your account is terminated."
 msgstr "Se você é um membro Premium pagando em mensalidades, você não será cobrado após sua conta ser terminada."
 
-msgid "NeoArt Labs has the right to terminate your account. This will result in the deactivation or deletion of your account and you will be prevented from any access to the game."
-msgstr "NeoArt Labs tem o direito de terminar sua conta. Isso irá resultar na desativação e remoção da sua conta e você será proibido de qualquer tipo de acesso ao jogo."
+msgid "DKTech has the right to terminate your account. This will result in the deactivation or deletion of your account and you will be prevented from any access to the game."
+msgstr "DKTech tem o direito de terminar sua conta. Isso irá resultar na desativação e remoção da sua conta e você será proibido de qualquer tipo de acesso ao jogo."
 
 msgid "Unenforceable provisions"
 msgstr "Provisão inexequível"
@@ -1750,8 +1750,8 @@ msgstr "Se alguma provisão desse termo for, ou se encontrar, inexequível sob l
 msgid "Applicable law and competent court"
 msgstr "Legislação aplicável e tribunal competente"
 
-msgid "Hacker Experience and NeoArt Labs are governed by Brazilian law. In case of disputes or arguments only the courts of Ribeirão Preto will be competent."
-msgstr "Hacker Experience e NeoArt Labs são governados pela legislação brasileira. No caso de disputas ou argumentos somente o tribunal de Ribeirão Preto será considerado competente."
+msgid "HackerGuilds and DKTech are governed by Brazilian law. In case of disputes or arguments only the courts of Ribeirão Preto will be competent."
+msgstr "HackerGuilds e DKTech são governados pela legislação brasileira. No caso de disputas ou argumentos somente o tribunal de Ribeirão Preto será considerado competente."
 
 msgid "In case of disputes a printed version of these terms and conditions of use will be accepted in legal or administrative procedures."
 msgstr "No caso de disputas, a versão impressa desses termos e condições de uso será aceita em procedimentos legais ou administrativos."
@@ -1759,8 +1759,8 @@ msgstr "No caso de disputas, a versão impressa desses termos e condições de u
 msgid "Changes to the TOS"
 msgstr "Mudanças nos Termos de Serviço"
 
-msgid "NeoArt Labs reserves the right to update and change the Terms of Service from time to time without notice."
-msgstr "NeoArt Labs reserva o direito de atualizar e alterar os Termos de Serviço de tempos em tempos sem aviso."
+msgid "DKTech reserves the right to update and change the Terms of Service from time to time without notice."
+msgstr "DKTech reserva o direito de atualizar e alterar os Termos de Serviço de tempos em tempos sem aviso."
 
 msgid "Any changes or updates made to the application are subject to these Terms of Service."
 msgstr "Qualquer mudança ou atualizações feitas estão sujeitas a esses Termos de Serviço."
@@ -1786,8 +1786,8 @@ msgstr "Esse Termo de Serviço foi publicado em %s e revisado pela última vez e
 msgid "Privacy Matters"
 msgstr "Política de Privacidade"
 
-msgid "Privacy is top priority at Hacker Experience, and we like to explain our Privacy Policy in clear and simple words:"
-msgstr "Privacidade é assunto de alta prioridade em Hacker Experience, e nós preferimos explicar nossa Política de Privacidade em palavras claras e simples:"
+msgid "Privacy is top priority at HackerGuilds, and we like to explain our Privacy Policy in clear and simple words:"
+msgstr "Privacidade é assunto de alta prioridade em HackerGuilds, e nós preferimos explicar nossa Política de Privacidade em palavras claras e simples:"
 
 msgid "Personal information you provide us"
 msgstr "Informações pessoais que você nos provê"
@@ -1822,11 +1822,11 @@ msgstr "Piwik - <a href=\"http://piwik.org\">Piwik</a> é uma plataforma analít
 msgid "New Relic - New Relic provides better statistics regarding page load and application aspects. No personal-identifying information is collected."
 msgstr "New Relic - New Relic provê melhores estatísticas no que tange a carregamento de páginas e aspectos de aplicação. Nenhuma informação pessoal é coletada."
 
-msgid "Cookies - We use cookies to enable a more personal experience on the game. We do not track other sites than hackerexperience.com. Hacker Experience might not work without cookies."
-msgstr "Cookies - Nós usamos cookies para permitir uma experiência mais pessoal do jogo. Nós não rastreamos outros sites além de hackerexperience.com. Hacker Experience pode não funcionar corretamente sem cookies."
+msgid "Cookies - We use cookies to enable a more personal experience on the game. We do not track other sites than HackerGuilds.com. HackerGuilds might not work without cookies."
+msgstr "Cookies - Nós usamos cookies para permitir uma experiência mais pessoal do jogo. Nós não rastreamos outros sites além de HackerGuilds.com. HackerGuilds pode não funcionar corretamente sem cookies."
 
-msgid "Google Adsense - Google Ads help keep Hacker Experience free."
-msgstr "Google Adsense - Google Ads ajuda a manter Hacker Experience gratuito."
+msgid "Google Adsense - Google Ads help keep HackerGuilds free."
+msgstr "Google Adsense - Google Ads ajuda a manter HackerGuilds gratuito."
 
 msgid "We protect"
 msgstr "Nós protegemos"
@@ -1852,7 +1852,7 @@ msgstr "Nós usamos SSL e criptograframos seus dados do nosso site até o sistem
 msgid "We use Google AdSense, that"
 msgstr "Nós usamos Google Adsense, que"
 
-msgid "Uses cookies to serve ads based on a user's prior visits to Hacker Experience."
+msgid "Uses cookies to serve ads based on a user's prior visits to HackerGuilds."
 msgstr "Usa cookies para servir propagandas baseadas em visitas anteriores de um usuário ao jogo."
 
 msgid "Uses DoubleClick*, a cookie that enables it and its partners to serve ads to you based on your previous accesses to other sites on the Internet."
@@ -1864,8 +1864,8 @@ msgstr "Usuários podem optar por sair do programa do DoubleClick de propaganda 
 msgid "Please note"
 msgstr "Por favor note"
 
-msgid "The use of the site constites your full acceptance of our Privacy Policy. If you do not agree with it, please refrain from using www.hackerexperience.com and all related domains."
-msgstr "O uso do site constitui sua completa aceitação da nossa Política de Privacidade. Se você não concorda com ela, por favor abstenha-se de usar www.hackerexperience.com e todos os domínios relacionados."
+msgid "The use of the site constites your full acceptance of our Privacy Policy. If you do not agree with it, please refrain from using www.HackerGuilds.com and all related domains."
+msgstr "O uso do site constitui sua completa aceitação da nossa Política de Privacidade. Se você não concorda com ela, por favor abstenha-se de usar www.HackerGuilds.com e todos os domínios relacionados."
 
 msgid "We may change our privacy policy from time to time. Although efforts will be made to announce any changes on the Forum Announcements Board, we may do so in our sole discretion. Your continued use of this site after any change in this Privacy Policy will constitute your acceptance of such change. Therefore, we encourage you to visit this page regularly."
 msgstr "Nós podemos alterar nossa política de privacidade de tempos em tempos. Embora esforços serão feitos para publicar qualquer alteração no Quadro de Anúncios do Fórum, nós podemos realizar a alteração sem prévio aviso. A continuação do uso do site após qualquer alteração nessa Política de Privacidade constitui sua aceitação de tais mudanças. Portanto, nós recomendamos que você visite essa página regularmente."
@@ -1921,8 +1921,8 @@ msgstr "Código de verificação não bate"
 msgid "Invalid verification code"
 msgstr "Código de verificação inválido"
 
-msgid "Welcome to Hacker Experience!"
-msgstr "Bem-vindo a Hacker Experience"
+msgid "Welcome to HackerGuilds!"
+msgstr "Bem-vindo a HackerGuilds"
 
 msgid "Hello there, it's nice to have you around. This is a quick guide to explain how the game works."
 msgstr "Olá, é bom ter você por aqui. Esse é um rápido guia para explicar como o jogo funciona."
@@ -2675,8 +2675,8 @@ msgstr "Vocẽ não pode resetar sua senha agora."
 msgid "Not enough money."
 msgstr "Sem dinheiro suficiente."
 
-msgid "There already is a payment of yours being processed. For safety reasons we won't accept this new one. If you think this is an error, mail us at contact@hackerexperience.com"
-msgstr "Já existe um pagamento seu sendo processado. Por motivos de segurança não aceitaremos esse novo. Se você acha que é um erro, envie um email para contato@hackerexperience.com"
+msgid "There already is a payment of yours being processed. For safety reasons we won't accept this new one. If you think this is an error, mail us at contact@HackerGuilds.com"
+msgstr "Já existe um pagamento seu sendo processado. Por motivos de segurança não aceitaremos esse novo. Se você acha que é um erro, envie um email para contato@HackerGuilds.com"
 
 msgid "Invalid request, please try again. (Your payment was not processed)"
 msgstr "Requisição inválida, por favor tente novamente. (Seu pagamento não foi processado)"
@@ -3934,8 +3934,8 @@ msgstr "Seja gentil"
 msgid "Rules"
 msgstr "Regras"
 
-msgid "Greetings, %s!<br/><br/>Thanks for trying out Hacker Experience, we are very excited to have you on board. Congratulations on completing the tutorial. It wasn't that hard, right? <br/><br/>There are <strong>a lot</strong> more things to do in the game, if you get stuck don't hesitate in talking to us.<br/><br/>The fastest way of getting help is posting at our <a href=\"http://forum.hackerexperience.com/\">community board</a>. We will happly guide you through the game. You can also find a great resource information on our <a href=\"http://wiki.hackerexperience.com/\">Wiki page</a>.<br/>Replying to this mail is another option. I'd be thrilled to talk to you :)<br/><br/>(By the way, I just sent you 1.337 BTC. You can see it on the Finances page. Enjoy!)<br/><br/>Pardon the pun, but we hope you have a great <i>experience</i> here!!<br/><br/>Happy hacking!<br/>Renato."
-msgstr "Saudações, %s!<br/><br/>Obrigado por testar Hacker Experience, estamos muito animados em ter você a bordo. Parabéns em completar o tutorial. Não foi tão difícil, certo? <br/><br/>Existem <strong>muitas</strong> outras coisas pra serem feitas no jogo, se você tiver alguma dificuldade não hesite em conversar conosco.<br/><br/>A forma mais rápida de arrumar ajuda é postando no nosso <a href=\"http://forum.hackerexperience.com/\">fórum</a>. Nós iremos alegremente guiá-lo pelo jogo. Você também pode encontrar uma ótima fonte de informações na nossa <a href=\"http://wiki.hackerexperience.com/\">Wiki</a>.<br/>Responder esse email é outra opção. Eu ficaria honrado em conversar com você :)<br/><br/>(Aliás, acabei de lhe enviar 1.337 BTC. Você pode ver mais detalhes na página de Finanças. Aproveite!)<br/><br/>Perdão pelo trocadilho, mas esperamos que você tenha uma ótima <i>experiência</i> por aqui!!<br/><br/>Boas invasões!<br/>Renato."
+msgid "Greetings, %s!<br/><br/>Thanks for trying out HackerGuilds, we are very excited to have you on board. Congratulations on completing the tutorial. It wasn't that hard, right? <br/><br/>There are <strong>a lot</strong> more things to do in the game, if you get stuck don't hesitate in talking to us.<br/><br/>The fastest way of getting help is posting at our <a href=\"http://forum.HackerGuilds.com/\">community board</a>. We will happly guide you through the game. You can also find a great resource information on our <a href=\"http://wiki.HackerGuilds.com/\">Wiki page</a>.<br/>Replying to this mail is another option. I'd be thrilled to talk to you :)<br/><br/>(By the way, I just sent you 1.337 BTC. You can see it on the Finances page. Enjoy!)<br/><br/>Pardon the pun, but we hope you have a great <i>experience</i> here!!<br/><br/>Happy hacking!<br/>Renato."
+msgstr "Saudações, %s!<br/><br/>Obrigado por testar HackerGuilds, estamos muito animados em ter você a bordo. Parabéns em completar o tutorial. Não foi tão difícil, certo? <br/><br/>Existem <strong>muitas</strong> outras coisas pra serem feitas no jogo, se você tiver alguma dificuldade não hesite em conversar conosco.<br/><br/>A forma mais rápida de arrumar ajuda é postando no nosso <a href=\"http://forum.HackerGuilds.com/\">fórum</a>. Nós iremos alegremente guiá-lo pelo jogo. Você também pode encontrar uma ótima fonte de informações na nossa <a href=\"http://wiki.HackerGuilds.com/\">Wiki</a>.<br/>Responder esse email é outra opção. Eu ficaria honrado em conversar com você :)<br/><br/>(Aliás, acabei de lhe enviar 1.337 BTC. Você pode ver mais detalhes na página de Finanças. Aproveite!)<br/><br/>Perdão pelo trocadilho, mas esperamos que você tenha uma ótima <i>experiência</i> por aqui!!<br/><br/>Boas invasões!<br/>Renato."
 
 msgid "Reply message to "
 msgstr "Responder mensagem para "
@@ -4312,7 +4312,7 @@ msgstr "Motivo dado pela operadora de cartão de crédito"
 msgid "Order in progress"
 msgstr "Compra em andamento"
 
-msgid "Hacker Experience email confirmation"
+msgid "HackerGuilds email confirmation"
 msgstr "Email de confirmação"
 
 msgid "Proceed to "
@@ -4909,8 +4909,8 @@ msgstr "Minhas tarefas"
 msgid "The installed doom virus requires at least 500 MB of free disk space."
 msgstr "O vírus doom instalado requer pelo menos 500 MB de espaço em disco disponível."
 
-msgid "<strong>Attention!</strong> By playing Hacker Experience you consent with the following terms, so read them carefully!"
-msgstr "<strong>Atenção!</strong> Ao jogar Hacker Experience você consente com os seguintes termos, então leia-os com cuidado!"
+msgid "<strong>Attention!</strong> By playing HackerGuilds you consent with the following terms, so read them carefully!"
+msgstr "<strong>Atenção!</strong> Ao jogar HackerGuilds você consente com os seguintes termos, então leia-os com cuidado!"
 
 msgid "Terms of service"
 msgstr "Termos de serviço"
@@ -5147,7 +5147,7 @@ msgid "By the way, no download is needed. You will play the whole time using you
 msgstr "Aliás, nenhum download é necessário. Você pode jogar o jogo usando apenas o seu navegador."
 
 msgid "No! The whole game is virtual, you will be hacking \"made up\" servers from others players. You also won't learn how to hack in real life. No technical knowledge is needed in order to play the game."
-msgstr "Não! O jogo inteiro é virtual, você estará invadindo servidores \"de mentira\" de outras pessoas. Você também não vai aprender como invadir na vida real. Nenhum conhecimento técnico é necessário para poder jogar Hacker Experience."
+msgstr "Não! O jogo inteiro é virtual, você estará invadindo servidores \"de mentira\" de outras pessoas. Você também não vai aprender como invadir na vida real. Nenhum conhecimento técnico é necessário para poder jogar HackerGuilds."
 
 msgid "You don't actually kill anyone when playing Grand Theft Auto, right?"
 msgstr "Você não mata ninguém de verdade quando joga GTA, certo?"
@@ -5158,8 +5158,8 @@ msgstr "Você não faz! O jogo todo pode ser jogado pelo seu navegador, independ
 msgid "Oh yeah. You can play the whole game, <strong>with all features</strong>, for free."
 msgstr "Com certeza. Você tem acesso ao jogo inteiro, <strong>com todos os recursos</strong>, de graça."
 
-msgid "The only reason we can offer Hacker Experience for free is because of the non-intrusive ads we show in the game."
-msgstr "O único motivo pelo qual nós podemos oferecer Hacker Experience de graça para você é por causa das propagandas não-intrusivas que são exibidas no jogo."
+msgid "The only reason we can offer HackerGuilds for free is because of the non-intrusive ads we show in the game."
+msgstr "O único motivo pelo qual nós podemos oferecer HackerGuilds de graça para você é por causa das propagandas não-intrusivas que são exibidas no jogo."
 
 msgid "The user can opt for a premium account to get rid of the ads and help us directly. This is not a \"pay to win\" game, though. Premium users have no tactical advantages over basic accounts."
 msgstr "O usuário pode optar por uma conta premium para se livrar das propagandas e nos ajudar diretamente. Entretanto, esse não é um jogo \"pague pra vencer\". Usuários premium não têm nenhum tipo de vantagem tática sobre contas básicas."

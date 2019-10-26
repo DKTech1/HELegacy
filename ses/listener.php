@@ -67,19 +67,19 @@ $output = '1348944187	{"address_city":"San Jose","address_country":"United State
 $login = 'napster';    
 $to = 'renatosmassaro@gmail.com';
 
-$footer = ' <br/><br/> -------- <br/> Best regards, <br/> <b>Hacker Experience Staff</b>';    
+$footer = ' <br/><br/> -------- <br/> Best regards, <br/> <b>HackerGuilds Staff</b>';    
 
 require "classes/PHPMailer.class.php";
 $mail = new PHPMailer();
 
-$link = 'http://beta.hackerexperience.com/premium.php?key='.md5($sign);
+$link = 'http://beta.HackerGuilds.com/premium.php?key='.md5($sign);
 
 switch($output['payment_status']){
     
     case 'Completed':
         
         $subject = 'Premium Account Activated!';
-        $text = $login.', I am very happy to announce that you now own a <b> premium account </b> on Hacker Experience. <br/><br/>
+        $text = $login.', I am very happy to announce that you now own a <b> premium account </b> on HackerGuilds. <br/><br/>
                 Thank you very much for supporting the game, and helping to pay server expenses<br/><br/>
                 All you have to do is click on this link: '.$link.'<br/><br/>
                 Have fun and enjoy the game, now as a premium user :).'.$footer;
@@ -96,7 +96,7 @@ switch($output['payment_status']){
                 But no worries! Your premium account was activated, and we hope to solve the pending problem ASAP.<br/><br/>
                 All you have to do is click on this link: '.$link.'<br/><br/>
                 <b>If paypal does not complete your process, we will contact you direcly, and your premium status may be frozen for a few hours until the situation is solved.</b><br/><br/>
-                Feel free to contact us at <u>contact@hackerexperience.com</u><br/>'.$footer;                     
+                Feel free to contact us at <u>contact@HackerGuilds.com</u><br/>'.$footer;                     
         
         if(!$mail->sendMail($subject, $text, $to, 3, 1)){
             echo 'bad bad server';
@@ -106,7 +106,7 @@ switch($output['payment_status']){
     case 'Denied':
     
         $subject = 'Premium account activated!';
-        $text = $login.', I am very happy to announce that you now own a <b> premium account </b> on Hacker Experience. <br/>
+        $text = $login.', I am very happy to announce that you now own a <b> premium account </b> on HackerGuilds. <br/>
                 Thank you very much for supporting the game, and helping to pay server expenses<br/> Have fun and enjoy the game, now as a premium user.'.$footer;
                     
         if(!$mail->sendMail($subject, $text, $to, 3, 1)){

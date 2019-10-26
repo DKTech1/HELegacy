@@ -4,7 +4,7 @@ $wikiPath = 'http://localhost/wiki/';
 
 $version = '0.8';
 $versionStatus = ' BETA';
-$gameTitle = 'Hacker Experience '.$version.$versionStatus; //título do jogo
+$gameTitle = 'HackerGuilds '.$version.$versionStatus; //título do jogo
 
 static $processActions = Array(
     

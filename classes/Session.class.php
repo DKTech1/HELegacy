@@ -554,11 +554,11 @@ if (ini_get("session.use_cookies")) {
             return 'en_US';
         }
         
-        if($_SERVER['HTTP_HOST'] == 'hackerexperience.com' || $_SERVER['HTTP_HOST'] == 'www.hackerexperience.com'){
+        if($_SERVER['HTTP_HOST'] == 'HackerGuilds.com' || $_SERVER['HTTP_HOST'] == 'www.HackerGuilds.com'){
             return 'en_US';
         }
         
-        if($_SERVER['HTTP_HOST'] == 'br.hackerexperience.com' || $_SERVER['HTTP_HOST'] == 'www.br.hackerexperience.com'){
+        if($_SERVER['HTTP_HOST'] == 'br.HackerGuilds.com' || $_SERVER['HTTP_HOST'] == 'www.br.HackerGuilds.com'){
             return 'pt_BR';
         }
         
@@ -583,39 +583,39 @@ if (ini_get("session.use_cookies")) {
         
         switch($page){
             case 'clan':
-                return 'https://wiki.hackerexperience.com/'._('en').':clans';
+                return 'https://wiki.HackerGuilds.com/'._('en').':clans';
             case 'missions':
                 if($info == 'level'){
                     $ext = _('#mission_level');
                 }
-                return 'https://wiki.hackerexperience.com/'._('en').':missions'.$ext;
+                return 'https://wiki.HackerGuilds.com/'._('en').':missions'.$ext;
             case 'hardware':
-                return 'https://wiki.hackerexperience.com/'._('en').':hardware';
+                return 'https://wiki.HackerGuilds.com/'._('en').':hardware';
             case 'log':
-                return 'https://wiki.hackerexperience.com/'._('en').':log';
+                return 'https://wiki.HackerGuilds.com/'._('en').':log';
             case 'university':
-                return 'https://wiki.hackerexperience.com/'._('en').':university';
+                return 'https://wiki.HackerGuilds.com/'._('en').':university';
             case 'finances':
-                return 'https://wiki.hackerexperience.com/'._('en').':finances';
+                return 'https://wiki.HackerGuilds.com/'._('en').':finances';
             case 'list':
                 if($info == 'ddos'){
-                    return 'https://wiki.hackerexperience.com/'._('en').':ddos';
+                    return 'https://wiki.HackerGuilds.com/'._('en').':ddos';
                 } elseif($info == 'collect'){
-                    return 'https://wiki.hackerexperience.com/'._('en').':hacked_database';
+                    return 'https://wiki.HackerGuilds.com/'._('en').':hacked_database';
                 }
-                return 'https://wiki.hackerexperience.com/'._('en').':hacked_database';
+                return 'https://wiki.HackerGuilds.com/'._('en').':hacked_database';
             case 'task':
-                return 'https://wiki.hackerexperience.com/'._('en').':processes';
+                return 'https://wiki.HackerGuilds.com/'._('en').':processes';
             case 'software':
                 if($info == 'external'){
-                    return 'https://wiki.hackerexperience.com/'._('en').':hardware'._('#external_hard_drive');
+                    return 'https://wiki.HackerGuilds.com/'._('en').':hardware'._('#external_hard_drive');
                 }
-                return 'https://wiki.hackerexperience.com/'._('en').':softwares';
+                return 'https://wiki.HackerGuilds.com/'._('en').':softwares';
             case 'internet':
                 if($info == 'hack'){
-                    return 'https://wiki.hackerexperience.com/'._('en').':hacking';
+                    return 'https://wiki.HackerGuilds.com/'._('en').':hacking';
                 }
-                return 'https://wiki.hackerexperience.com/'._('en').':internet';
+                return 'https://wiki.HackerGuilds.com/'._('en').':internet';
                 
         }
         

@@ -1108,7 +1108,7 @@ $clock = date('Y-m-d H:i');
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title><?php echo _($sub); ?> - Hacker Experience</title>
+        <title><?php echo _($sub); ?> - HackerGuilds</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
@@ -1159,7 +1159,7 @@ if($css['fa'] == 1){
     </head>
     <body class="<?php echo $bodyClass; ?>">
         <div id="header">
-            <h1><a href="#">Hacker Experience</a></h1>
+            <h1><a href="#">HackerGuilds</a></h1>
         </div>
         <div id="user-nav" class="navbar navbar-inverse">
             <ul class="nav btn-group">

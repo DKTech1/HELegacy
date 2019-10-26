@@ -4,7 +4,7 @@ Missions happen between Companies, a special type of NPC.
 
 ====== Missions Types ======
 
-Got a cool mission idea? Post on the forum or mail us at contact@hackerexperience.com
+Got a cool mission idea? Post on the forum or mail us at contact@HackerGuilds.com
 ===== Delete software =====
 
 The easiest mission you will find. The user is asked to hack into a Company and delete a given file. 
@@ -68,7 +68,7 @@ If you can't currently hack the assigned company, it might be wise to use what w
 
 If you can't find the specified mission software, please wait. NPCs softwares are restored <del>daily</del> every 15 minutes.
 
-If you believe there is a bug, contact us at contact@hackerexperience.com.
+If you believe there is a bug, contact us at contact@HackerGuilds.com.
 
 ====== Completed Missions ======
 

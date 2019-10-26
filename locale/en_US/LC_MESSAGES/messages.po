@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Hacker Experience\n"
+"Project-Id-Version: HackerGuilds\n"
 "POT-Creation-Date: 2014-08-24 00:32-0300\n"
 "PO-Revision-Date: 2014-08-24 01:55-0300\n"
 "Last-Translator: \n"

@@ -3,7 +3,7 @@ Missões são uma forma alternativa de ganhar dinheiro. Atualmente, há cinco ti
 Missões acontecem entre Empresas, um tipo especial de NPC.
 
 ====== Tipos de Missões ======
-Tem idéias legais para missões? Poste nos fórums ou envie um email para contato@hackerexperience.com
+Tem idéias legais para missões? Poste nos fórums ou envie um email para contato@HackerGuilds.com
 
 ===== Deletar software =====
 O tipo mais fácil que você vai encontrar. O usuário é pedido para invadir uma empresa e deletar um arquivo específico.
@@ -67,7 +67,7 @@ Se você não consegue invadir a empresa da missão, pode ser uma boa ideia usar
 
 Se você não pode encontrar o software especificado da missão, por favor espere. Softwares dos NPC são restaurados uma vez por dia.
 
-Se você acredita que há um bug, entre em contato conosco em contato@hackerexperience.com.
+Se você acredita que há um bug, entre em contato conosco em contato@HackerGuilds.com.
 
 ====== Missões Finalizadas ======
 

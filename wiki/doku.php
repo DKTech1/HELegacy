@@ -34,7 +34,7 @@ $QUERY          = trim($INPUT->str('id'));
 $ID             = getID();
 
 if($ID == 'start' && !isset($_GET['do'])){
-    header("Location:https://wiki.hackerexperience.com/en:start");
+    header("Location:https://wiki.HackerGuilds.com/en:start");
     exit();
 }
 

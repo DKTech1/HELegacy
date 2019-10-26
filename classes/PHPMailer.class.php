@@ -477,21 +477,21 @@ class PHPMailer {
   
   public function sendMail($subject, $text, $to, $account, $isHTML = 0){
       
-      $replyTo = 'contact@hackerexperience.com';
+      $replyTo = 'contact@HackerGuilds.com';
       
       switch($account){
           
           case 1: //system
-              $from = 'system@hackerexperience.com';
+              $from = 'system@HackerGuilds.com';
               break;
           case 2: //tickets
-              $from = 'tickets@hackerexperience.com';
+              $from = 'tickets@HackerGuilds.com';
               break;
           case 3:
-              $from = 'renato@hackerexperience.com';
+              $from = 'renato@HackerGuilds.com';
               break;
           default:
-              $from = 'renato@hackerexperience.com';
+              $from = 'renato@HackerGuilds.com';
               break;
           
       }
@@ -507,7 +507,7 @@ class PHPMailer {
       $this->Body = $text;
       
       $this->From = $from;
-      $this->FromName = 'Hacker Experience';
+      $this->FromName = 'HackerGuilds';
       $this->Sender = $from;
       $this->AddReplyTo = $replyTo;
 

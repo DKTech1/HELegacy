@@ -3,7 +3,7 @@
 $l = 'en_US';
 
 if(isset($_SERVER['HTTP_HOST'])){
-    if($_SERVER['HTTP_HOST'] == 'br.hackerexperience.com' || $_SERVER['HTTP_HOST'] == 'www.br.hackerexperience.com'){
+    if($_SERVER['HTTP_HOST'] == 'br.HackerGuilds.com' || $_SERVER['HTTP_HOST'] == 'www.br.HackerGuilds.com'){
         $l = 'pt_BR';
     }
 }
@@ -164,7 +164,7 @@ if(isset($_POST['ttuser']) || isset($_POST['predefined'])){
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="">
         <meta name="author" content="">
-        <title>Hacker Experience</title>
+        <title>HackerGuilds</title>
         <link href="css/bootstrap.css" rel="stylesheet">
         <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
         <link href="css/he_index.css" rel="stylesheet">

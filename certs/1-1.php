@@ -1,4 +1,4 @@
-<p class="lead center"><?php echo _('Welcome to Hacker Experience!'); ?></p>
+<p class="lead center"><?php echo _('Welcome to HackerGuilds!'); ?></p>
 <br/>
 <?php echo _('Hello there, it\'s nice to have you around. This is a quick guide to explain how the game works.'); ?>
 <br/>
