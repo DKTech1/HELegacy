@@ -6,7 +6,7 @@ class PDO_DB {
     private static $dsn1  = 'mysql:unix_socket=';
     private static $dsn2  = ';port=3306;dbname=game';
     private static $user = 'he'; 
-    private static $pass = 'REDCATED'; 
+    private static $pass = 'Root1234'; 
     private static $dbOptions = array(
         //PDO::ATTR_PERSISTENT => true,
         PDO::ATTR_CASE => PDO::CASE_LOWER,
