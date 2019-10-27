@@ -22,7 +22,7 @@ cur = False
 
 try:
 
-	db = MySQLdb.connect(host="localhost",user="he",passwd="REDACTED",db="game")
+	db = MySQLdb.connect(host="localhost",user="he",passwd="Root1234",db="game")
 	cur = db.cursor()
 
 	cur.execute("	INSERT INTO users \

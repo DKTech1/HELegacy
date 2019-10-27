@@ -26,7 +26,7 @@ def prepare():
 		badge_table = 'clan_badge'
 		field = 'clanID'
 
-	db = MySQLdb.connect(host="localhost",user="he",passwd="REDACTED",db="game",charset="utf8",init_command="set names utf8")
+	db = MySQLdb.connect(host="localhost",user="he",passwd="Root1234",db="game",charset="utf8",init_command="set names utf8")
 	cur = db.cursor()
 
 	json_data = open('/var/www/json/badges.json').read()
