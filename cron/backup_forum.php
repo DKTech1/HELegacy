@@ -9,7 +9,7 @@ $name = date('Ymd-Hi').'_forum';
 //ENTER THE RELEVANT INFO BELOW
 $mysqlDatabaseName ='forum';
 $mysqlUserName ='forum';
-$mysqlPassword ='REDACTED';
+$mysqlPassword ='Root1234';
 $mysqlHostName ='localhost';
 $mysqlExportPath ='/var/web/backup/forum/'.$name.'.sql';
 

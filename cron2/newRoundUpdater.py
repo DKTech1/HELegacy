@@ -1,7 +1,7 @@
 import MySQLdb
 import os
 
-db = MySQLdb.connect(host="localhost",user="he",passwd="REDACTED",db="game")
+db = MySQLdb.connect(host="localhost",user="he",passwd="Root1234",db="game")
 cur = db.cursor()
 
 cur.execute("SELECT id FROM round WHERE status = 0 AND TIMESTAMPDIFF(SECOND, startDate, NOW()) > 0 LIMIT 1")

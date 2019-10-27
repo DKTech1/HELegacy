@@ -9,7 +9,7 @@ $name = date('Ymd-Hi').'_game';
 //ENTER THE RELEVANT INFO BELOW
 $mysqlDatabaseName ='game';
 $mysqlUserName ='he';
-$mysqlPassword ='REDACTED';
+$mysqlPassword ='Root1234';
 $mysqlHostName ='localhost';
 $mysqlExportPath ='/var/web/backup/game/'.$name.'.sql';
 
