@@ -1,19 +1,19 @@
-1402846370	127.0.0.1	C	sidebar	renato	created	
-1402860737	127.0.0.1	E	sidebar	renato		
-1402860782	127.0.0.1	E	sidebar	renato		
-1402860829	127.0.0.1	E	sidebar	renato		
-1402860839	127.0.0.1	E	sidebar	renato		
-1402860895	127.0.0.1	E	sidebar	renato		
-1402860909	127.0.0.1	E	sidebar	renato		
-1402860926	127.0.0.1	E	sidebar	renato		
-1402860946	127.0.0.1	E	sidebar	renato		
-1402860953	127.0.0.1	E	sidebar	renato		
-1402860965	127.0.0.1	E	sidebar	renato		
-1402861003	127.0.0.1	E	sidebar	renato		
-1402861068	127.0.0.1	E	sidebar	renato		
-1402862215	127.0.0.1	E	sidebar	renato		
-1402864389	127.0.0.1	E	sidebar	renato		
-1402941829	127.0.0.1	E	sidebar		external edit	
+1402846370	%HOST%	C	sidebar	renato	created	
+1402860737	%HOST%	E	sidebar	renato		
+1402860782	%HOST%	E	sidebar	renato		
+1402860829	%HOST%	E	sidebar	renato		
+1402860839	%HOST%	E	sidebar	renato		
+1402860895	%HOST%	E	sidebar	renato		
+1402860909	%HOST%	E	sidebar	renato		
+1402860926	%HOST%	E	sidebar	renato		
+1402860946	%HOST%	E	sidebar	renato		
+1402860953	%HOST%	E	sidebar	renato		
+1402860965	%HOST%	E	sidebar	renato		
+1402861003	%HOST%	E	sidebar	renato		
+1402861068	%HOST%	E	sidebar	renato		
+1402862215	%HOST%	E	sidebar	renato		
+1402864389	%HOST%	E	sidebar	renato		
+1402941829	%HOST%	E	sidebar		external edit	
 1402963410	::1	E	sidebar	renato		
 1402976395	::1	E	sidebar	renato		
 1402976438	::1	E	sidebar	renato		
@@ -26,5 +26,5 @@
 1403148131	::1	E	sidebar	renato		
 1403150810	::1	E	sidebar	renato		
 1403150818	::1	E	sidebar	renato		
-1405391497	127.0.0.1	E	sidebar		external edit	
-1407449080	127.0.0.1	D	sidebar	renato	removed	
+1405391497	%HOST%	E	sidebar		external edit	
+1407449080	%HOST%	D	sidebar	renato	removed	

@@ -63,7 +63,7 @@ $twitteroauth->host = "https://api.twitter.com/1.1/";
 //if($_SERVER['HTTP_HOST'] == 'www.HackerGuilds.com' || $_SERVER['HTTP_HOST'] == 'HackerGuilds.com'){
 //    $url = 'http://HackerGuilds.com/';
 //} else {
-//    $url = 'http://127.0.0.1/';
+//    $url = 'http://%HOST%/';
 //}
 $url = 'http://HackerGuilds.com/';
 

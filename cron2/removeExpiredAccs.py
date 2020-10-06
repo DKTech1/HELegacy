@@ -4,7 +4,7 @@ import time
 
 start_time = time.time()
 
-db = MySQLdb.connect(host="localhost",user="he",passwd="Root1234",db="game")
+db = MySQLdb.connect(host="localhost",user="he",passwd="%CRED%",db="game")
 cur = db.cursor()
 
 cur.execute("	SELECT accID \

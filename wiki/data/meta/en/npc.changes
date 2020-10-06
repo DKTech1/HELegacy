@@ -11,7 +11,7 @@
 1403147399	::1	E	en:npc	renato	[Pricing] 	
 1403150749	::1	E	en:npc	renato	[Bitcoin Market] 	
 1403150783	::1	E	en:npc	renato	[Companies] 	
-1405391497	127.0.0.1	E	en:npc		external edit	
-1409552827	127.0.0.1	E	en:npc	renato	[First Whois] 	
-1410269188	127.0.0.1	E	en:npc	renato		
-1410270086	127.0.0.1	E	en:npc	renato		
+1405391497	%HOST%	E	en:npc		external edit	
+1409552827	%HOST%	E	en:npc	renato	[First Whois] 	
+1410269188	%HOST%	E	en:npc	renato		
+1410270086	%HOST%	E	en:npc	renato		
