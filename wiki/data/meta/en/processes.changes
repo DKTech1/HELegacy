@@ -1,8 +1,8 @@
-1402862480	127.0.0.1	C	en:processes	renato	created	
-1402862508	127.0.0.1	E	en:processes	renato		
-1402862849	127.0.0.1	E	en:processes	renato		
-1402862975	127.0.0.1	E	en:processes	renato	[Download / Upload software] 	
-1402941829	127.0.0.1	E	en:processes		external edit	
+1402862480	%HOST%	C	en:processes	renato	created	
+1402862508	%HOST%	E	en:processes	renato		
+1402862849	%HOST%	E	en:processes	renato		
+1402862975	%HOST%	E	en:processes	renato	[Download / Upload software] 	
+1402941829	%HOST%	E	en:processes		external edit	
 1402947203	::1	E	en:processes	renato	[Download / Upload software] 	
 1402947259	::1	E	en:processes	renato	[Download / Upload software] 	
 1402947278	::1	E	en:processes	renato	[Download / Upload software] 	
@@ -29,6 +29,6 @@
 1403147836	::1	E	en:processes	renato		
 1403147854	::1	E	en:processes	renato	[Reset IP] 	
 1403148285	::1	E	en:processes	renato	[Format Hard Drive] 	
-1405391497	127.0.0.1	E	en:processes		external edit	
-1409550042	127.0.0.1	E	en:processes	renato		
-1409550069	127.0.0.1	E	en:processes	renato	[Task Manager] 	
+1405391497	%HOST%	E	en:processes		external edit	
+1409550042	%HOST%	E	en:processes	renato		
+1409550069	%HOST%	E	en:processes	renato	[Task Manager] 	

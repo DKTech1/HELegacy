@@ -24,7 +24,7 @@ function parseChangelogLine($line) {
     if ($tmp!==false && count($tmp)>1) {
         $info = array();
         $info['date']  = (int)$tmp[0]; // unix timestamp
-        $info['ip']    = $tmp[1]; // IPv4 address (127.0.0.1)
+        $info['ip']    = $tmp[1]; // IPv4 address (%HOST%)
         $info['type']  = $tmp[2]; // log line type
         $info['id']    = $tmp[3]; // page id
         $info['user']  = $tmp[4]; // user name
@@ -66,7 +66,7 @@ function addLogEntry($date, $id, $type=DOKU_CHANGE_TYPE_EDIT, $summary='', $extr
     $wasRemoved = ($type===DOKU_CHANGE_TYPE_DELETE);
 
     if(!$date) $date = time(); //use current time if none supplied
-    $remote = (!$flagExternalEdit)?clientIP(true):'127.0.0.1';
+    $remote = (!$flagExternalEdit)?clientIP(true):'%HOST%';
     $user   = (!$flagExternalEdit)?$INPUT->server->str('REMOTE_USER'):'';
 
     $strip = array("\t", "\n");
@@ -405,7 +405,7 @@ abstract class ChangeLog {
      * @param int $rev        revision timestamp
      * @return bool|array false or array with entries:
      *      - date:  unix timestamp
-     *      - ip:    IPv4 address (127.0.0.1)
+     *      - ip:    IPv4 address (%HOST%)
      *      - type:  log line type
      *      - id:    page id
      *      - user:  user name

@@ -10,7 +10,7 @@ import MySQLdb
 import json
 import string
 
-db = MySQLdb.connect(host="localhost",user="he",passwd="Root1234",db="game")
+db = MySQLdb.connect(host="localhost",user="he",passwd="%CRED%",db="game")
 cur = db.cursor()
 
 json_data = open('/var/www/json/npcsoftware.json').read()

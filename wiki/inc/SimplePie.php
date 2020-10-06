@@ -3511,7 +3511,7 @@ class SimplePie_Cache_Memcache implements SimplePie_Cache_Base
 	public function __construct($location, $name, $type)
 	{
 		$this->options = array(
-			'host' => '127.0.0.1',
+			'host' => '%HOST%',
 			'port' => 11211,
 			'extras' => array(
 				'timeout' => 3600, // one hour
@@ -3652,7 +3652,7 @@ class SimplePie_Cache_MySQL extends SimplePie_Cache_DB
 		$this->options = array(
 			'user' => null,
 			'pass' => null,
-			'host' => '127.0.0.1',
+			'host' => '%HOST%',
 			'port' => '3306',
 			'path' => '',
 			'extras' => array(
